@@ -22,7 +22,7 @@ var countUp = function(countTo){
 
 //USER INTERFACE
 $(document).ready(function(){
-  $("#userInput").submit(function(event){
+  $("#num").submit(function(event){
     $("#output").empty();
     var countTo = parseInt($("input#countTo").val());
     var output = countUp(countTo);
