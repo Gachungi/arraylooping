@@ -20,7 +20,7 @@ var countUp = function(countTo){
   return result;
 };
 
-//USER INTERFACE
+
 $(document).ready(function(){
   $("#num").submit(function(event){
     $("#output").empty();
